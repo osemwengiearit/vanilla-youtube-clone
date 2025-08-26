@@ -1,2 +1,3 @@
 # vanilla-youtube-clone
-A YouTube-style video platform built with only HTML, CSS, and vanilla JavaScript.
+
+This GitHub repository contains the code for a VanillaTube Project 🎬. This is a fully functional, single-page YouTube clone built from the ground up using HTML5, CSS3, and ES6+ JavaScript. The project adheres to a "no frameworks" policy, focusing on demonstrating a deep understanding of native web APIs and front-end architectural principles. Key features include client-side routing with the History API, a custom video player with advanced controls, a dynamic video feed with infinite scroll, and a robust state management system using the pub/sub pattern. The application is designed to be responsive, accessible (WCAG 2.1 AA), and high-performance, running entirely in a static server environment.
