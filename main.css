@@ -99,3 +99,11 @@ header,
   border-radius: 3.1rem 0 0 3.1rem;
   border: 1px solid #d4d4d4;
 }
+
+.navbar .search-form .search-button {
+  width: auto;
+  padding: 0 1.25rem;
+  border-radius: 3.1rem 0 0 3.1rem;
+  border: 1px solid #d4d4d4;
+  border-left: 0;
+}
