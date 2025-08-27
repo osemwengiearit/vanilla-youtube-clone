@@ -1,0 +1,23 @@
+/* Importing Google Font: Open San */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+header,
+.category-list {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f0f0f0;
+}
