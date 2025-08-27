@@ -13,7 +13,7 @@
     <link rel="icon" href="assest/logo.svg" type="assest/x-icon" />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body class="sidebar-hidden">
     <div class="container">
       <!-- Header / Navbar -->
       <header>
@@ -46,6 +46,9 @@
           </div>
 
           <div class="nav-right">
+            <button class="search-button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
             <button class="theme-button">
               <i class="fa-solid fa-moon"></i>
             </button>
@@ -55,8 +58,19 @@
       </header>
 
       <main class="main-layout">
+        <div class="screen-overlay"></div>
         <!-- Sidebar -->
         <aside class="sidebar">
+          <div class="nav-left">
+            <button class="nav-button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="#" class="nav-logo">
+              <img src="assest/logo.svg" alt="logo-image" />
+              <!-- <h2 class="logo-text">Youtube</h2> -->
+            </a>
+          </div>
+
           <div class="link-container">
             <div class="link-section">
               <a href="#" class="link-item">
